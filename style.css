@@ -1,0 +1,109 @@
+#canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#score-container {
+    display: none;
+    position: absolute;
+    font-size: x-large;
+    color: white;
+    user-select: none;
+}
+
+#text-container {
+    position: absolute;
+    font-size: xxx-large;
+    color: white;
+    display: none;
+    text-align: center;
+    user-select: none;
+}
+
+#maintext {
+    cursor: default;
+    user-select: none;
+}
+
+.ahover {
+    border: 2px dashed white;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.ahover:hover {
+    border: 2px solid white;
+    padding: 0 10px;
+}
+
+#subtext {
+    font-size: xx-large;
+    user-select: none;
+}
+
+#info-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: x-large;
+    color: white;
+    user-select: none;
+}
+
+#info-btn {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 2px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#cheat-btn {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 2px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#difficulty button {
+    background-color: black;
+    color: white;
+    border: 2px dashed white;
+    padding: 2px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#difficulty button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.active {
+    border: 2px solid white !important;
+    transition: border 1s;
+}

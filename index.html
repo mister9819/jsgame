@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW 3</title>
+
+    <meta name="description" content="HW 3">
+    <meta name="author" content="Soham Pajwani">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="info-container">
+        <button id="info-btn">Hide</button>
+        <div id="info"></div>
+        <button id="cheat-btn">Cheat: OFF</button>
+    </div>
+
+    <div id="score-container">
+        Score: <span id="score">0</span>
+        <br>
+        <div id="timer-container">
+        Timer: <span id="timer">1</span>
+        </div>
+    </div>
+
+
+    <div id="text-container">
+        <div id="maintext"></div>
+        <div id="subtext"></div>
+        <div id="difficulty">
+            <button>Easy</button>
+            <button class="active">Medium</button>
+            <button>Hard</button>
+        </div>
+    </div>
+
+
+    <canvas id="canvas" width="720" height="720"></canvas>
+
+    <script src="main.js"></script>
+</body>
+</html>
